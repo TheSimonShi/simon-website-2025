@@ -1,0 +1,99 @@
+.home {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    z-index: 1;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+  }
+  
+  blockquote {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0 30px;
+    font-style: italic;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
