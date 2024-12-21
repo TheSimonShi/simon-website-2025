@@ -1,0 +1,84 @@
+/* General Footer Styles */
+.footer {
+    background-color: #f3f3f3; /* Light gray */
+    color: #333; /* Darker gray for text */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-top,
+  .footer-bottom {
+    margin-bottom: 15px;
+  }
+  
+  .footer-links a,
+  .footer-socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Site Links Styling */
+  .footer-links a {
+    color: #215cc1; /* Dark blue */
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+    background-color: #215cc1; /* Blue background on hover */
+  }
+  
+  /* Social Media Links Styling */
+  .youtube {
+    background-color: #ff0000; /* YouTube Red */
+    color: #fff;
+  }
+  .youtube:hover {
+    background-color: #cc0000;
+  }
+  
+  .instagram {
+    background-color: #e1306c; /* Instagram Pink */
+    color: #fff;
+  }
+  .instagram:hover {
+    background-color: #c42a60;
+  }
+  
+  .strava {
+    background-color: #fc4c02; /* Strava Orange */
+    color: #fff;
+  }
+  .strava:hover {
+    background-color: #d43d02;
+  }
+  
+  .tiktok {
+    background-color: #000; /* TikTok Black */
+    color: #fff;
+  }
+  .tiktok:hover {
+    background-color: #444;
+  }
+  
+  .linkedin {
+    background-color: #0077b5; /* LinkedIn Blue */
+    color: #fff;
+  }
+  .linkedin:hover {
+    background-color: #005f92;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-links a,
+    .footer-socials a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

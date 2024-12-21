@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Nav,
   NavLink,
@@ -6,18 +6,40 @@ import {
   MobileIcon,
   HamburgerMenu,
   NavItem,
+  Logo,
 } from "./NavbarElements";
+import logo from "../sslogo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <Nav>
+      <Nav scrolled={scrolled}>
+        <Logo to="/">
+          <img src={logo} alt="Logo" />
+        </Logo>
+
         <MobileIcon onClick={toggleMenu}>
           <HamburgerMenu />
         </MobileIcon>
