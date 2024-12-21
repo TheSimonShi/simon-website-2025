@@ -1,0 +1,172 @@
+/* Coaching Page Styling */
+.coaching-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #eef2f3, #8e9eab);
+    min-height: 100vh;
+  }
+  
+  .coaching-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #215cc1;
+  }
+  
+  .coaching-section {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coaching-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #215cc1;
+  }
+  
+  .coaching-section p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Coaching Plan List */
+  .coaching-plan-list {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .coaching-plan-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Pricing List */
+  .pricing-list {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .pricing-list li {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #215cc1;
+  }
+  
+  /* Call-to-Action Button */
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #215cc1;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Email Inquiry */
+  .email-inquire {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #215cc1;
+  }
+  
+  .email-inquire a {
+    color: #215cc1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .email-inquire a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Gallery Section */
+  .gallery-section {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Instagram Link */
+  .instagram-link {
+    color: #215cc1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .instagram-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .coaching-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .coaching-section {
+      padding: 15px;
+    }
+  
+    .coaching-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .coaching-section p {
+      font-size: 1rem;
+    }
+  
+    .pricing-list li {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  
+    .gallery-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

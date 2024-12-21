@@ -2,7 +2,7 @@
 .run-calculator-container {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 100px 20px;
+    padding: 1px 20px;
     background: linear-gradient(135deg, #eef2f3, #8e9eab);
     min-height: 100vh;
     display: flex;
