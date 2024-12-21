@@ -1,0 +1,53 @@
+/* Run Calculator Page Styling */
+.run-calculator-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #eef2f3, #8e9eab);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .run-calculator-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #215cc1;
+  }
+  
+  .run-calculator-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .run-calculator-container ul {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .run-calculator-container ul li::before {
+    content: "\2022";
+    color: #215cc1;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .run-calculator-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .run-calculator-container p, .run-calculator-container ul {
+      font-size: 1rem;
+    }
+  }
+  
