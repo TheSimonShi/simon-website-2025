@@ -38,7 +38,6 @@ export const Nav = styled.nav`
   }
 `;
 
-
 export const MobileIcon = styled.div`
   display: none;
 
@@ -65,11 +64,10 @@ export const NavMenu = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     width: 100%;
     background: #215CC1;
-    overflow: hidden;
     height: ${(props) => (props.isOpen ? "auto" : "0")}; /* Transition height */
     opacity: ${(props) => (props.isOpen ? "1" : "0")}; /* Fade effect */
     visibility: ${(props) => (props.isOpen ? "visible" : "hidden")}; /* Hide when closed */

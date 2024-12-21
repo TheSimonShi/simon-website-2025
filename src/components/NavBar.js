@@ -18,6 +18,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false); // Close menu when a link is clicked
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -45,27 +49,27 @@ const Navbar = () => {
         </MobileIcon>
         <NavMenu isOpen={isOpen}>
           <NavItem>
-            <NavLink to="/" activeStyle>
+            <NavLink to="/" activeStyle onClick={closeMenu}>
               Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/socials" activeStyle>
+            <NavLink to="/socials" activeStyle onClick={closeMenu}>
               Socials
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/coaching" activeStyle>
+            <NavLink to="/coaching" activeStyle onClick={closeMenu}>
               Coaching
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/contact" activeStyle>
+            <NavLink to="/contact" activeStyle onClick={closeMenu}>
               Contact
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/runCalculator" activeStyle>
+            <NavLink to="/runCalculator" activeStyle onClick={closeMenu}>
               Run Calculator
             </NavLink>
           </NavItem>
