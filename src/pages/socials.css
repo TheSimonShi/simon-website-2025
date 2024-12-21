@@ -1,0 +1,86 @@
+/* Socials Page Styling */
+.socials-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #eef2f3, #8e9eab); /* Updated gradient background */
+    min-height: 100vh;
+  }
+  
+  .socials-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #215cc1;
+  }
+  
+  .socials-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .youtube {
+    background-color: #ff0000;
+  }
+  
+  .instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  }
+  
+  .tiktok {
+    background-color: #000000;
+  }
+  
+  .twitter {
+    background-color: #1DA1F2;
+  }
+  
+  .strava {
+    background-color: #fc4c02;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+  }
+  
+  .facebook {
+    background-color: #1877f2;
+  }
+  
+  .website {
+    background-color: #333333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-link {
+      font-size: 1rem;
+      padding: 12px 20px;
+    }
+  }
+  
