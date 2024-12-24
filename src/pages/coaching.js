@@ -1,11 +1,16 @@
 // Filename - "./pages/coaching.js"
-import React from "react";
+import React, { useEffect } from "react";
 import "./coaching.css";
 import Tri1 from "../Tri1.jpg";
 import Tri2 from "../Tri2.jpg";
 import Tri3 from "../Tri3.JPG";
 
 const Coaching = () => {
+
+  useEffect(() => {
+    document.title = "Coaching - Simon Shi";
+  }, []);
+
   return (
     <div className="coaching-container">
       <h1>Triathlon Coaching</h1>

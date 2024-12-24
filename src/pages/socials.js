@@ -1,8 +1,13 @@
 // Filename - "./pages/socials.js"
-import React from "react";
+import React, { useEffect } from "react";
 import "./socials.css";
 
 const Socials = () => {
+
+    useEffect(() => {
+      document.title = "Socials - Simon Shi";
+    }, []);
+
   return (
     <div className="socials-container">
       <h1>Follow Me</h1>

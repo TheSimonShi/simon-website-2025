@@ -1,8 +1,13 @@
 // Filename - "./pages/contact.js"
-import React from "react";
+import React, { useEffect } from "react";
 import "./contact.css";
 
 const Contact = () => {
+
+  useEffect(() => {
+    document.title = "Contact - Simon Shi";
+  }, []);
+
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>

@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import "./runCalculator.css";
 
 const RunCalculator = () => {
+
+  useEffect(() => {
+    document.title = "Run Calculator - Simon Shi";
+  }, []);
+
   const [pace, setPace] = useState(""); // User-entered pace
   const [isMinPerMile, setIsMinPerMile] = useState(true); // Toggle for min/mile or min/km
   const [results, setResults] = useState(null);
